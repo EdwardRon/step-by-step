@@ -1,0 +1,9 @@
+body {background-color: #AAA;}
+/*id选择器*/
+#name {color: blue; font-style: normal;}
+/*class选择器*/
+.green {color: green;}
+.big {font-size: 5em;}
+.small {font-size: 1.5em;}
+.italic {font-style: italic;}
+.oblique {font-style: oblique;}
