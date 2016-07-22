@@ -11,3 +11,4 @@ body {background-color: #AAA;}
 #menu {background-color: #00ffdc; float: left; height: 200px; width: 150px;}
 #content {background-color: #e400ff; float: left; height: 200px; width: 350px;}
 #footer {background-color: #00ff95; text-align: center; clear: both; width: 500px;}
+#white {background-color: white;}
