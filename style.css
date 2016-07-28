@@ -1,4 +1,4 @@
-body {background-color: #AAA;}
+body {background-color: #e6e6e6;}
 /*id选择器*/
 #name {color: blue; font-style: normal;}
 /*class选择器*/
@@ -12,3 +12,4 @@ body {background-color: #AAA;}
 #content {background-color: #e400ff; float: left; height: 200px; width: 350px;}
 #footer {background-color: #00ff95; text-align: center; clear: both; width: 500px;}
 #white {background-color: white;}
+#blink {text-decoration: blink;}

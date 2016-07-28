@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<h3>个人简历</h3>
+	<div id="resume"></div>
+
+  	<script type="text/javascript">
+  		var resumeElement = document.getElementById('resume');
+
+  		var Edward = {hobby:['A', 'B', 'C']};
+
+  		var hobbyHtml = '';
+
+  		for(i in Edward.hobby){
+  			hobbyHtml += '<li>' + Edward.hobby[i] + '</li>';
+  		}
+
+  		hobbyHtml = '<ul>' + hobbyHtml + '</ul>';
+
+
+  		var resumeHtml = hobbyHtml;
+
+  		resumeElement.innerHTML = resumeHtml;
+  	</script>
+</body>
+</html>
