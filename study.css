@@ -1,0 +1,9 @@
+div	{
+	width: 100px;
+	height: 100px;
+	background-color: #883a3a;
+	padding: 10px 20px 30px 40px;
+}
+body {
+	margin: 0;
+}

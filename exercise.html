@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="resume">
+		<ul>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		var resumeElement = document.getElementsByTagName('resume')
+		var Edwardron = {hobby:['SWIMMING','GAME','RUNNING']}
+		var i = 0
+		var hobbyHtml = ''
+		for (i in Edwardron.hobby){
+			 hobbyHtml += '<li>' + Edwardron.hobby + '</li>'; 
+		}	
+			hobbyHtml = 	'<ul>' + hobbyHtml + '</ul>'
+		 var 	resumeHtml = hobbyHtml
+		 
+		 resumeElement.innerHtml = 	resumeHtml	
+	</script>
+</body>
+</html>

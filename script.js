@@ -37,4 +37,22 @@ var array = ['A', 'B', 'C'];
 var object = {a:1, b: 2, c: 3};
 
 
+var hobby = ['游泳','唱歌','跳舞']
+for(i in hobby){
+	document.write('<li>' + hobby[i] + '</li>')
+}
+
+var taste = {drink:"Tea", meat:"Pork"};
+
+for(key in taste){
+    document.write('<li>' + taste[key] + '</li>');
+    console.log(key);
+}
+
+for(i in hobby){
+  document.write('<li>' + hobby[i] + '</li>')
+  console.log(i);
+}
+
+
 
